@@ -1,13 +1,6 @@
-# ==============================
-# 🍉 Streamlit Fruit Detection Dependencies
-# ==============================
 streamlit
 ultralytics
-opencv-python-headless==4.10.0.84
-Pillow
-numpy
 torch
 torchvision
-matplotlib
-# Fix for missing libGL.so.1 in Streamlit Cloud / Linux
-pygobject
+opencv-python-headless
+Pillow
