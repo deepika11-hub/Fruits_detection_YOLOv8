@@ -1,6 +1,8 @@
 # ============================================================
 # 🍎 Streamlit Fruit Detection App (Bujji Edition 💖)
 # ============================================================
+import os
+os.system('apt-get update -y && apt-get install -y libgl1-mesa-glx')
 
 import streamlit as st
 from ultralytics import YOLO
